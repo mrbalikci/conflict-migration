@@ -28,4 +28,8 @@ h1 {
 }
 
 #map { height: 400px; }
+
+#selDataset {
+  margin: unset;
+}
   

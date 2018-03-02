@@ -116,7 +116,7 @@ d3.json(url_map, function (data) {
         div.innerHTML = "<div style='background-color:#fff;padding:5px;border:2px solid #8e9196;border-radius:5px;'>\
                             <p style='text-align:center; margin:0px'><strong>Legend</strong></p>\
                             <hr style='margin-top:2px;margin-bottom:2px'>\
-                            <svg height='8' width='8'><circle cx='4' cy='4' r='4' stroke='null' fill='rgb(214, 113, 6)' /></svg> Battle Deaths (20x)<br>\
+                            <svg height='8' width='8'><circle cx='4' cy='4' r='4' stroke='null' fill='rgb(214, 113, 6)' /></svg> Battle Deaths <br>\
                             <svg height='8' width='8'><circle cx='4' cy='4' r='4' stroke='null' fill='yellow' /></svg> Asylum Seekers<br>\
                             <svg height='8' width='8'><circle cx='4' cy='4' r='4' stroke='null' fill='rgb(239, 24, 4)' /></svg> Refugees From Country</div>"
     

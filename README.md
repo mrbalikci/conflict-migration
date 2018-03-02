@@ -2,7 +2,6 @@
 
 ## The Team Members and Their Roles 
 
-## Visualize The Data: [World Migration Data](https://world-refugees.herokuapp.com)
 * Team Lead - Donna Dietrich 
 
 * Scrum Master - Erdem Balikci

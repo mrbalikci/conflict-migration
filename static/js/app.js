@@ -63,7 +63,7 @@ function appendTable(name) {
 
         // define the layout
         var layout = {
-            title: 'Numbers of Asylum, Refugee and Battle Deaths Since 1990',
+            title: `Numbers of Asylum, Refugee and Battle Deaths Since 1990 for ${name}`,
             xaxis: {
                 title: "Years",
                 tickfont: {
@@ -129,11 +129,18 @@ function appendTable(name) {
         // let the frappe chart begin 
         let chart = new Chart({
             parent: "#plotChart",
-            title: "Asylum, Refugee, and Battle Deaths Chart Since 1990",
+            title: `Asylum, Refugee, and Battle Deaths Chart Since 1990 for ${name}`,
             data: data,
             type: 'line',
             height: 300,
 
+            legend: {
+                x: 1.0,
+                y: 1.0,
+                bgcolor: 'rgba(255, 255, 255, 0)',
+                bordercolor: 'rgba(255, 255, 255, 0)'
+            },
+            
             colors: ['red', 'green', 'blue'],
 
             format_tooltip_x: d => (d + '').toUpperCase(),
@@ -162,7 +169,7 @@ function appendTable(name) {
         var layout = {
             height: 500,
             width: 1000,
-            title: "Total Numbers of Asylum, Refugee and Battle Deaths Since 1990"
+            title: `Total Numbers of Asylum, Refugee and Battle Deaths Since 1990 for ${name}`
         };
 
         Plotly.newPlot('plotPie', data, layout);
